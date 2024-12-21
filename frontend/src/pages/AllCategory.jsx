@@ -4,12 +4,12 @@ import CategoryPage from "./CategoryPage";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { id: 1, href: "/shirt", name: "Shirt", imageUrl: "/Shirt3.webp" },
+  { id: 1, href: "/Shirt", name: "Shirt", imageUrl: "/Shirt3.webp" },
   { id: 2, href: "/t-shirts", name: "T-shirts", imageUrl: "/tshirt2.webp" },
   { id: 8, href: "/Pants", name: "Pants", imageUrl: "/pants2.webp" },
   { id: 5, href: "/jeans", name: "Jeans", imageUrl: "/jeans3.webp" },
   { id: 6, href: "/suits", name: "Suits", imageUrl: "/suits1.webp" },
-  { id: 9, href: "/kurtas", name: "Kurtas", imageUrl: "/kurta1.webp" },
+  { id: 9, href: "/Kurtas", name: "Kurtas", imageUrl: "/kurta1.webp" },
   { id: 4, href: "/glasses", name: "Glasses", imageUrl: "/glas2.webp" },
   { id: 3, href: "/shoes", name: "Shoes", imageUrl: "/shoe1.webp" },
   { id: 7, href: "/bags", name: "Bags", imageUrl: "/bag.webp" },
