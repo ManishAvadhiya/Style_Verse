@@ -24,7 +24,7 @@ const AllCategory = () => {
 
   return (
     <div className="flex justify-evenly items-center">
-      <div className="flex-2 ml-5 mt-4">
+      <div className="flex-2 ml-5 mt-4 hidden sm:block">
         <motion.div
           className="flex flex-col justify-start items-start"
           initial={{ opacity: 0, y: 20 }}
