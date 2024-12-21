@@ -93,7 +93,7 @@ export const checkoutSuccess = async (req,res)=>{
 
 			// create a new Order
 			const products = JSON.parse(session.metadata.products);
-            console.log("Products from session metadata:", products);
+
 
 			const newOrder = new Order({
 				user: session.metadata.userId,
@@ -115,7 +115,7 @@ export const checkoutSuccess = async (req,res)=>{
 			});
 		}
 	} catch (error) {
-		console.error("Error processing successful checkout:", error);
+
 		res.status(500).json({ message: "Error processing successful checkout", error: error.message });
 	}
 }

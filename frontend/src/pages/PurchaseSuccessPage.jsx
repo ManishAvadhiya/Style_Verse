@@ -12,13 +12,13 @@ const PurchaseSuccessPage = () => {
   useEffect(() => {
     const handleCheckoutSuccess = async (sessionId) => {
       try {
-        console.log("here");
+
         await axios.post("/payments/checkout-success", {
           sessionId,
         });
-        console.log("first");
+
         clearCart();
-        console.log("second");
+
       } catch (error) {
         console.log(error);
       } finally {
